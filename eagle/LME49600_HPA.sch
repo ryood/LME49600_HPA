@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -12518,40 +12518,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </library>
 <library name="mylib2">
 <packages>
-<package name="DIL24-6">
-<wire x1="-13.843" y1="-1.27" x2="-13.843" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="1.27" x2="-13.843" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<wire x1="16.383" y1="-6.604" x2="16.383" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="6.604" x2="-13.843" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="6.604" x2="16.383" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="-6.604" x2="16.383" y2="-6.604" width="0.1524" layer="21"/>
-<pad name="1" x="-12.7" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-10.16" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-7.62" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-5.08" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="-2.54" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="0" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="2.54" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="5.08" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="7.62" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="10.16" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="12.7" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="15.24" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="15.24" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="12.7" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="10.16" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="7.62" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="17" x="5.08" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="18" x="2.54" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="19" x="0" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="20" x="-2.54" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="21" x="-5.08" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="22" x="-7.62" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="23" x="-10.16" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="24" x="-12.7" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<text x="-14.351" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-10.795" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="POLYSWITCH">
 <wire x1="1.2546" y1="-0.7745" x2="1.27" y2="0.762" width="0.1524" layer="51" curve="101.534587"/>
 <wire x1="-1.27" y1="-0.762" x2="-1.2546" y2="0.7745" width="0.1524" layer="51" curve="-101.534587"/>
@@ -12576,28 +12542,19 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
 </package>
+<package name="SIP5-9">
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="21"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.127" layer="21"/>
+<pad name="P$1" x="-5.08" y="-7.62" drill="0.8"/>
+<pad name="P$2" x="-2.54" y="-7.62" drill="0.8"/>
+<pad name="P$3" x="0" y="-7.62" drill="0.8"/>
+<pad name="P$4" x="2.54" y="-7.62" drill="0.8"/>
+<pad name="P$5" x="5.08" y="-7.62" drill="0.8"/>
+</package>
 </packages>
 <symbols>
-<symbol name="LME49600">
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-4.699" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.413" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="2.286" width="0.1524" layer="94"/>
-<text x="4.445" y="3.175" size="1.016" layer="95" rot="R90">VCC</text>
-<text x="4.445" y="-5.334" size="1.016" layer="95" rot="R90">VEE</text>
-<text x="-4.445" y="-8.382" size="1.524" layer="95">BW</text>
-<pin name="IN" x="-7.62" y="0" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
-<pin name="BW" x="-7.62" y="-7.62" visible="pad" length="short" direction="in"/>
-<pin name="VEE@1" x="2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="VCC" x="2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-</symbol>
 <symbol name="PTC">
 <wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
@@ -12628,27 +12585,28 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <vertex x="3.048" y="1.778"/>
 </polygon>
 </symbol>
+<symbol name="LME49600">
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-4.699" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.286" width="0.1524" layer="94"/>
+<text x="4.445" y="3.175" size="1.016" layer="95" rot="R90">VCC</text>
+<text x="4.445" y="-5.334" size="1.016" layer="95" rot="R90">VEE</text>
+<text x="-4.445" y="-8.382" size="1.524" layer="95">BW</text>
+<pin name="IN" x="-7.62" y="0" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
+<pin name="BW" x="-7.62" y="-7.62" visible="pad" length="short" direction="in"/>
+<pin name="VEE@1" x="2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="LME49600_BRD">
-<gates>
-<gate name="G$1" symbol="LME49600" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIL24-6">
-<connects>
-<connect gate="G$1" pin="BW" pad="2"/>
-<connect gate="G$1" pin="IN" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="10"/>
-<connect gate="G$1" pin="VEE@1" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="POLYSWITCH">
 <gates>
 <gate name="G$1" symbol="PTC" x="0" y="0"/>
@@ -12658,6 +12616,25 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LME49600-BRD2">
+<gates>
+<gate name="G$1" symbol="LME49600" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIP5-9">
+<connects>
+<connect gate="G$1" pin="BW" pad="P$1"/>
+<connect gate="G$1" pin="IN" pad="P$2"/>
+<connect gate="G$1" pin="OUT" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$5"/>
+<connect gate="G$1" pin="VEE@1" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12826,7 +12803,6 @@ Grid 5.08 mm&lt;p&gt;
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
-<part name="U$1" library="mylib2" deviceset="LME49600_BRD" device=""/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="P-1" library="supply1" deviceset="V-" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="075-042X103" value="0.1uF"/>
@@ -12868,7 +12844,6 @@ Grid 5.08 mm&lt;p&gt;
 <part name="AGND15" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND16" library="supply1" deviceset="AGND" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
-<part name="U$2" library="mylib2" deviceset="LME49600_BRD" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="P-4" library="supply1" deviceset="V-" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="075-042X103" value="0.1uF"/>
@@ -12890,6 +12865,8 @@ Grid 5.08 mm&lt;p&gt;
 <part name="C20" library="rcl" deviceset="C-EU" device="050-055X075"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
+<part name="U$1" library="mylib2" deviceset="LME49600-BRD2" device=""/>
+<part name="U$2" library="mylib2" deviceset="LME49600-BRD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12917,7 +12894,6 @@ Grid 5.08 mm&lt;p&gt;
 </instance>
 <instance part="AGND5" gate="VR1" x="104.14" y="170.18"/>
 <instance part="R3" gate="G$1" x="132.08" y="154.94"/>
-<instance part="U$1" gate="G$1" x="121.92" y="187.96"/>
 <instance part="P+1" gate="1" x="124.46" y="210.82"/>
 <instance part="P-1" gate="1" x="124.46" y="162.56"/>
 <instance part="C4" gate="G$1" x="129.54" y="198.12" rot="R90"/>
@@ -12992,7 +12968,6 @@ Grid 5.08 mm&lt;p&gt;
 </instance>
 <instance part="AGND16" gate="VR1" x="104.14" y="60.96"/>
 <instance part="R8" gate="G$1" x="132.08" y="45.72"/>
-<instance part="U$2" gate="G$1" x="121.92" y="78.74"/>
 <instance part="P+4" gate="1" x="124.46" y="101.6"/>
 <instance part="P-4" gate="1" x="124.46" y="53.34"/>
 <instance part="C14" gate="G$1" x="129.54" y="88.9" rot="R90"/>
@@ -13027,6 +13002,8 @@ Grid 5.08 mm&lt;p&gt;
 <instance part="C20" gate="G$1" x="48.26" y="81.28" rot="R270"/>
 <instance part="R12" gate="G$1" x="55.88" y="73.66" rot="R90"/>
 <instance part="AGND23" gate="VR1" x="55.88" y="63.5"/>
+<instance part="U$1" gate="G$1" x="121.92" y="187.96"/>
+<instance part="U$2" gate="G$1" x="121.92" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -13204,17 +13181,15 @@ Grid 5.08 mm&lt;p&gt;
 <net name="N$7" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="OUT"/>
-<pinref part="U$1" gate="G$1" pin="IN"/>
 <wire x1="101.6" y1="187.96" x2="114.3" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="V-" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="BW"/>
 <wire x1="114.3" y1="180.34" x2="111.76" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="180.34" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="175.26" x2="124.46" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VEE@1"/>
 <wire x1="124.46" y1="175.26" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="P-1" gate="1" pin="V-"/>
 <wire x1="124.46" y1="175.26" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
@@ -13225,6 +13200,8 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="127" y1="167.64" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
 <junction x="124.46" y="167.64"/>
 <pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="U$1" gate="G$1" pin="BW"/>
+<pinref part="U$1" gate="G$1" pin="VEE@1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="V-"/>
@@ -13244,11 +13221,9 @@ Grid 5.08 mm&lt;p&gt;
 <junction x="60.96" y="205.74"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="BW"/>
 <wire x1="114.3" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="71.12" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VEE@1"/>
 <wire x1="124.46" y1="66.04" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="P-4" gate="1" pin="V-"/>
 <wire x1="124.46" y1="66.04" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
@@ -13259,6 +13234,8 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="127" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <junction x="124.46" y="58.42"/>
 <pinref part="C19" gate="G$1" pin="-"/>
+<pinref part="U$2" gate="G$1" pin="BW"/>
+<pinref part="U$2" gate="G$1" pin="VEE@1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="V-"/>
@@ -13272,7 +13249,6 @@ Grid 5.08 mm&lt;p&gt;
 </net>
 <net name="V+" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="P+1" gate="1" pin="V+"/>
 <wire x1="124.46" y1="195.58" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="198.12" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
@@ -13283,6 +13259,7 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="127" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
 <junction x="124.46" y="198.12"/>
 <pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="V+"/>
@@ -13302,7 +13279,6 @@ Grid 5.08 mm&lt;p&gt;
 <junction x="60.96" y="220.98"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
 <pinref part="P+4" gate="1" pin="V+"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="88.9" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
@@ -13313,6 +13289,7 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="127" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 <junction x="124.46" y="88.9"/>
 <pinref part="C18" gate="G$1" pin="+"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="V+"/>
@@ -13364,7 +13341,6 @@ Grid 5.08 mm&lt;p&gt;
 <net name="N$14" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="OUT"/>
 <wire x1="132.08" y1="187.96" x2="144.78" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="91"/>
 <junction x="144.78" y="187.96"/>
@@ -13377,6 +13353,7 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="71.12" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="134.62" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="PW+" class="0">
@@ -13433,8 +13410,8 @@ Grid 5.08 mm&lt;p&gt;
 <net name="N$5" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="OUT"/>
-<pinref part="U$2" gate="G$1" pin="IN"/>
 <wire x1="101.6" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -13477,7 +13454,6 @@ Grid 5.08 mm&lt;p&gt;
 <net name="N$13" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
 <wire x1="132.08" y1="78.74" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <junction x="144.78" y="78.74"/>
@@ -13490,6 +13466,7 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="71.12" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="25.4" x2="68.58" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="7.62" x2="144.78" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="N$15" class="0">
