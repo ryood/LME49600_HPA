@@ -12543,9 +12543,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
 </package>
 <package name="SIP5-9">
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="21"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="16.51" x2="10.16" y2="16.51" width="0.127" layer="21"/>
+<wire x1="10.16" y1="16.51" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.127" layer="21"/>
 <pad name="P$1" x="-5.08" y="-7.62" drill="0.8"/>
 <pad name="P$2" x="-2.54" y="-7.62" drill="0.8"/>
@@ -12805,8 +12805,8 @@ Grid 5.08 mm&lt;p&gt;
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="P-1" library="supply1" deviceset="V-" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="075-042X103" value="0.1uF"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="075-042X103" value="0.1uF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="050H075X075" value="0.1uF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="050H075X075" value="0.1uF"/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="1M"/>
@@ -12846,8 +12846,8 @@ Grid 5.08 mm&lt;p&gt;
 <part name="R8" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="P-4" library="supply1" deviceset="V-" device=""/>
-<part name="C14" library="rcl" deviceset="C-EU" device="075-042X103" value="0.1uF"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="075-042X103" value="0.1uF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="050H075X075" value="0.1uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="050H075X075" value="0.1uF"/>
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="0207/7" value="1M"/>
