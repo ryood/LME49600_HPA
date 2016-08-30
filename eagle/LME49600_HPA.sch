@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14335,8 +14335,8 @@ Source: www.kingbright.com</description>
 <part name="FRAME1" library="frames" deviceset="A4P-LOC" device=""/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E2-4" value="4.7uF"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-4" value="4.7uF"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="050-055X075"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="050-055X075" value="2.2uF"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="47k"/>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X2" device="" value="IN"/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X2" device="" value="OUT"/>
@@ -14367,8 +14367,8 @@ Source: www.kingbright.com</description>
 <part name="P-5" library="supply1" deviceset="V-" device=""/>
 <part name="C18" library="rcl" deviceset="CPOL-EU" device="E2-4" value="4.7uF"/>
 <part name="C19" library="rcl" deviceset="CPOL-EU" device="E2-4" value="4.7uF"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="050-055X075"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="1.2k"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="050-055X075" value="2.2uF"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="47k"/>
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
 <part name="U$1" library="mylib2" deviceset="LME49600-BRD2" device=""/>
 <part name="U$2" library="mylib2" deviceset="LME49600-BRD2" device=""/>
